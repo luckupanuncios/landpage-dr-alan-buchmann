@@ -37,7 +37,7 @@ export function ClinicSection() {
       id: "consultorio-espera",
       image: "/images/dr-alan/consultorio-espera.jpg",
       title: "Sala de Espera Privativa",
-      description: "Conforto absoluto e atendimento com horário marcado, sem filas.",
+      description: "Conforto e atendimento preferencialmente com horário agendado.",
       icon: <Armchair className="w-5 h-5 text-[#b89b5e]" />,
       label: "Conforto",
     },

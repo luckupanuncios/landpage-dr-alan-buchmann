@@ -3,13 +3,13 @@
 import React from "react";
 import Link from "next/link";
 import { Container } from "@/components/ui/container";
-import { getWhatsAppLink } from "@/lib/whatsapp";
+import { getWhatsAppLink, WHATSAPP_DISPLAY } from "@/lib/whatsapp";
 import { MapPin, MessageCircle } from "lucide-react";
 import { trackGTMEvent } from "@/lib/analytics";
 import Image from "next/image";
 
 export function Footer() {
-  const whatsappUrl = getWhatsAppLink("Olá Dr. Alan, gostaria de agendar uma avaliação.");
+  const whatsappUrl = getWhatsAppLink("Olá, gostaria de agendar uma avaliação com o Dr. Alan.");
   const mapsUrl = "https://maps.app.goo.gl/zvSyshBKMffJGThp6";
 
   const handleMapsClick = () => {
@@ -26,7 +26,7 @@ export function Footer() {
               <div className="w-full max-w-[270px] sm:max-w-[340px] opacity-95 hover:opacity-100 transition-opacity duration-300">
                 <Image
                   src="/images/dr-alan/capa-facebook-dr-alan.png"
-                  alt="Dr. Alan Buchmann — Odontologia Estética"
+                  alt="Dr. Alan Buchmann — Odontologia em Parobé"
                   width={340}
                   height={110}
                   className="w-full h-auto object-contain rounded-lg"
@@ -37,13 +37,13 @@ export function Footer() {
                   DR. ALAN BUCHMANN
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.22em] text-[#b89b5e] font-medium">
-                  Odontologia Estética
+                  Clínico Geral · CRO/RS 16744
                 </span>
               </div>
             </div>
             <p className="text-sm text-[#a3a3a3] font-light leading-relaxed">
-              Atendimento odontológico de alto padrão em Parobé - RS. Dedicação,
-              precisão e cuidado individualizado para renovar a estética e a saúde do seu sorriso.
+              Atendimento odontológico em Parobé - RS, conduzido com cuidado,
+              planejamento individualizado e atenção aos detalhes.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#tratamentos" className="hover:text-white transition-colors">
-                  Tratamentos Estéticos
+                  Tratamentos
                 </a>
               </li>
               <li>
@@ -108,7 +108,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  (51) 97805-0533
+                  {WHATSAPP_DISPLAY}
                 </a>
               </div>
               <div className="pt-2">

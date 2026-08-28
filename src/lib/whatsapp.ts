@@ -1,5 +1,6 @@
-export const WHATSAPP_NUMBER = "555197805053";
-export const DEFAULT_WHATSAPP_MESSAGE = "Olá Dr. Alan, gostaria de agendar uma avaliação.";
+export const WHATSAPP_NUMBER = "5551997805053";
+export const WHATSAPP_DISPLAY = "(51) 99780-5053";
+export const DEFAULT_WHATSAPP_MESSAGE = "Olá, gostaria de agendar uma avaliação com o Dr. Alan.";
 
 /**
  * Gera o link completo do WhatsApp com mensagem formatada para URL.

@@ -11,7 +11,7 @@ import { MapPin, Navigation, MessageCircle, Clock, Building } from "lucide-react
 export function LocationSection() {
   const mapsUrl = "https://maps.app.goo.gl/zvSyshBKMffJGThp6";
   const whatsappUrl = getWhatsAppLink(
-    "Olá Dr. Alan, gostaria de agendar uma avaliação no consultório de Parobé."
+    "Olá, gostaria de agendar uma avaliação com o Dr. Alan no consultório de Parobé."
   );
 
   return (
@@ -57,9 +57,9 @@ export function LocationSection() {
                         Atendimento
                       </h4>
                       <p className="text-sm text-[#686868] mt-1 leading-relaxed">
-                        Segunda a Sexta: Horários agendados
+                        Segunda a sexta-feira, preferencialmente com horário agendado.
                         <br />
-                        Atendimento exclusivo sob reserva prévia
+                        Às segundas-feiras, em semanas alternadas e apenas no período da tarde.
                       </p>
                     </div>
                   </div>

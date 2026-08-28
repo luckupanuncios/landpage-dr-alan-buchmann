@@ -23,33 +23,34 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://dralanbuchmann.com.br"),
-  title: "Dr. Alan Buchmann | Odontologia Estética em Parobé",
+  title: "Dr. Alan Buchmann | Dentista Clínico Geral em Parobé - RS",
   description:
     "Conheça o trabalho do Dr. Alan Buchmann em Parobé e agende sua avaliação odontológica. Atendimento personalizado, cuidado e atenção em cada detalhe.",
   keywords: [
     "Dr. Alan Buchmann",
-    "Odontologia Estética Parobé",
     "Dentista Parobé RS",
+    "Clínico Geral Parobé",
     "Lentes de Contato Dental Parobé",
-    "Facetas de Cerâmica",
-    "Alinhadores Invisíveis Parobé",
-    "Implantes Dentários Parobé",
-    "Reabilitação Oral",
+    "Facetas de Cerâmica Parobé",
+    "Clareamento Dental Parobé",
+    "Tratamento de Canal Parobé",
+    "Próteses Dentárias Parobé",
+    "Reabilitação Oral Parobé",
   ],
   authors: [{ name: "Dr. Alan Geison Buchmann Machado" }],
   creator: "Dr. Alan Buchmann",
   openGraph: {
-    title: "Dr. Alan Buchmann | Odontologia Estética em Parobé",
+    title: "Dr. Alan Buchmann | Dentista Clínico Geral em Parobé - RS",
     description:
       "Conheça o trabalho do Dr. Alan Buchmann em Parobé e agende sua avaliação odontológica. Atendimento personalizado, cuidado e atenção em cada detalhe.",
     url: "https://dralanbuchmann.com.br",
-    siteName: "Dr. Alan Buchmann — Odontologia Estética",
+    siteName: "Dr. Alan Buchmann — Odontologia em Parobé",
     images: [
       {
         url: "/images/dr-alan/capa-facebook-dr-alan.png",
         width: 1200,
         height: 630,
-        alt: "Dr. Alan Buchmann — Odontologia Estética em Parobé",
+        alt: "Dr. Alan Buchmann — Dentista Clínico Geral em Parobé",
       },
     ],
     locale: "pt_BR",
@@ -72,9 +73,9 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Dentist",
-    name: "Dr. Alan Buchmann — Odontologia Estética",
+    name: "Dr. Alan Buchmann — Odontologia",
     description:
-      "Atendimento odontológico de alto padrão em Parobé - RS. Lentes de contato, facetas, alinhadores invisíveis e reabilitação oral.",
+      "Atendimento odontológico em Parobé - RS. Clínico geral: restaurações, tratamento de canal, clareamento, facetas e lentes de contato em cerâmica, coroas, próteses e reabilitação oral.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "R. Lotário Raimundo, 59 - Sl 02 - Centro",
@@ -83,7 +84,7 @@ export default function RootLayout({
       postalCode: "95630-000",
       addressCountry: "BR",
     },
-    telephone: "+555197805053",
+    telephone: "+5551997805053",
     url: "https://dralanbuchmann.com.br",
     hasMap: "https://maps.app.goo.gl/zvSyshBKMffJGThp6",
     priceRange: "$$$",

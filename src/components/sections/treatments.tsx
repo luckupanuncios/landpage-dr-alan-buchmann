@@ -11,7 +11,7 @@ import { CheckCircle2, MessageCircle, ArrowUpRight } from "lucide-react";
 
 export function TreatmentsSection() {
   const defaultWhatsappUrl = getWhatsAppLink(
-    "Olá Dr. Alan, gostaria de agendar uma avaliação para tratamentos."
+    "Olá, gostaria de agendar uma avaliação com o Dr. Alan."
   );
 
   return (
@@ -20,7 +20,7 @@ export function TreatmentsSection() {
         {/* Cabeçalho da Seção */}
         <ScrollReveal delay={0}>
           <SectionHeader
-            eyebrow="Tratamentos & Especialidades"
+            eyebrow="Tratamentos Realizados"
             title="Cuidado completo para o seu sorriso."
             subtitle="Cada sorriso possui uma necessidade diferente. O primeiro passo é entender você e construir um tratamento adequado ao seu caso."
             align="center"
@@ -31,7 +31,7 @@ export function TreatmentsSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-14 md:mt-16">
           {TREATMENTS_DATA.map((treatment, idx) => {
             const treatmentWhatsappUrl = getWhatsAppLink(
-              `Olá Dr. Alan, gostaria de agendar uma avaliação para o tratamento de ${treatment.title}.`
+              `Olá, gostaria de agendar uma avaliação com o Dr. Alan sobre ${treatment.title}.`
             );
 
             return (

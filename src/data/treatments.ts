@@ -7,79 +7,141 @@ export interface Treatment {
   badge?: string;
 }
 
-// DADOS TÉCNICOS DE TRATAMENTOS (Marcados para validação posterior do Dr. Alan)
+// Tratamentos confirmados pelo Dr. Alan Buchmann (clínico geral).
+// Não incluir procedimentos fora desta lista sem confirmação prévia.
 export const TREATMENTS_DATA: Treatment[] = [
   {
-    id: "lentes-facetas",
-    title: "Lentes de Contato & Facetas",
-    subtitle: "Estética dental de alta precisão",
+    id: "limpeza-prevencao",
+    title: "Limpeza e Prevenção",
+    subtitle: "Profilaxia e saúde bucal",
     description:
-      "Lâminas ultrafinas de cerâmica personalizadas para alinhar formato, cor e proporção dos dentes com naturalidade ímpar.",
+      "Limpeza profissional e orientação preventiva para manter a saúde dos dentes e da gengiva ao longo do tempo.",
     features: [
-      "Planejamento digital do sorriso",
-      "Mínimo desgastes e máxima preservação",
-      "Alta durabilidade e brilho natural",
-    ],
-    badge: "Mais Procurado",
-  },
-  {
-    id: "alinhadores-invisiveis",
-    title: "Alinhadores Invisíveis",
-    subtitle: "Ortodontia moderna e discreta",
-    description:
-      "Alinhamento dentário com placas transparentes feitas sob medida. Conforto e estética durante todo o tratamento sem braquetes metálicos.",
-    features: [
-      "Removíveis para comer e higienizar",
-      "Praticamente invisíveis ao falar",
-      "Previsibilidade de resultados",
+      "Remoção de placa e tártaro",
+      "Orientação de higiene personalizada",
+      "Acompanhamento periódico",
     ],
   },
   {
-    id: "implantes-reabilitacao",
-    title: "Implantes & Reabilitação Oral",
-    subtitle: "Saúde, mastigação e estética renovadas",
+    id: "restauracoes",
+    title: "Restaurações Dentárias",
+    subtitle: "Recuperação da forma e da função",
     description:
-      "Substituição segura de dentes ausentes com pinos de titânio de última geração, devolvendo a função mastigatória e a harmonia facial.",
+      "Tratamento de cáries e reconstrução de dentes fraturados ou desgastados, devolvendo função e aparência natural.",
     features: [
-      "Técnicas cirúrgicas guiadas e indolores",
-      "Bio-integração de alta performance",
-      "Próteses com acabamento hiper-realista",
+      "Avaliação individual de cada caso",
+      "Materiais restauradores adequados ao dente",
     ],
   },
   {
-    id: "clareamento-estetico",
-    title: "Clareamento Odontológico",
-    subtitle: "Brilho e luminosidade natural",
+    id: "resina-direta",
+    title: "Resina Direta em Consultório",
+    subtitle: "Restauração em sessão única",
     description:
-      "Protocolo de clareamento supervisionado para conquistar um sorriso radiante de forma segura, minimizando a sensibilidade dentária.",
+      "Restauração em resina composta modelada diretamente na boca, concluída na própria consulta quando o caso permite.",
     features: [
-      "Técnicas combinadas em consultório e caseiro",
-      "Proteção do esmalte e gengiva",
-      "Resultados rápidos e duradouros",
+      "Realizada em uma única sessão",
+      "Escultura e acabamento em consultório",
     ],
   },
   {
-    id: "restauracoes-esteticas",
-    title: "Restaurações em Resina",
-    subtitle: "Escultura e reconstrução pontual",
+    id: "resina-laboratorio",
+    title: "Resina Confeccionada em Laboratório",
+    subtitle: "Peças produzidas sob medida",
     description:
-      "Reconstrução minuciosa de dentes fraturados ou desgastados com resinas compostas de alta resistência e mimetismo com o dente natural.",
+      "Peças em resina produzidas em laboratório a partir de moldagem, indicadas para casos que exigem maior controle de forma e acabamento.",
     features: [
-      "Procedimento realizado em sessão única",
-      "Textura e estratificação anatômica",
-      "Bio-compatibilidade total",
+      "Confecção laboratorial personalizada",
+      "Indicada conforme avaliação clínica",
     ],
   },
   {
-    id: "periodontia-prevencao",
-    title: "Odontologia Preventiva & Saúde",
-    subtitle: "Manutenção da saúde bucal",
+    id: "facetas-resina",
+    title: "Facetas Estéticas em Resina",
+    subtitle: "Ajuste de forma e cor",
     description:
-      "Check-up preventivo completo, profilaxia de alta precisão e cuidados com a saúde gengival para garantir a longevidade dos seus dentes.",
+      "Aplicação de resina na face visível dos dentes para corrigir forma, cor ou pequenas irregularidades.",
     features: [
-      "Remoção de tártaro e manchas",
-      "Diagnóstico precoce de lesões",
-      "Orientação personalizada de higiene",
+      "Planejamento do sorriso com mock-up, quando indicado",
+      "Abordagem conservadora quando indicada",
+    ],
+  },
+  {
+    id: "facetas-lentes-ceramica",
+    title: "Facetas e Lentes de Contato em Cerâmica",
+    subtitle: "Laminados cerâmicos personalizados",
+    description:
+      "Laminados de cerâmica confeccionados sob medida para ajustar formato, cor e proporção dos dentes.",
+    features: [
+      "Planejamento do sorriso com mock-up, quando indicado",
+      "Trabalho conduzido com auxílio de lupa",
+      "Cerâmica personalizada para cada paciente",
+    ],
+  },
+  {
+    id: "clareamento",
+    title: "Clareamento Dental",
+    subtitle: "Clareamento supervisionado",
+    description:
+      "Protocolo de clareamento acompanhado pelo dentista, com avaliação prévia das condições dos dentes e da gengiva.",
+    features: [
+      "Avaliação prévia de cada caso",
+      "Acompanhamento durante o tratamento",
+    ],
+  },
+  {
+    id: "tratamento-canal",
+    title: "Tratamento de Canal",
+    subtitle: "Endodontia",
+    description:
+      "Tratamento endodôntico para dentes com comprometimento da polpa, com o objetivo de preservar o dente na boca.",
+    features: [
+      "Diagnóstico clínico e radiográfico",
+      "Preservação do dente sempre que possível",
+    ],
+  },
+  {
+    id: "coroas",
+    title: "Coroas Dentárias",
+    subtitle: "Proteção e reconstrução",
+    description:
+      "Coroas que recobrem o dente comprometido, devolvendo forma, resistência e função mastigatória.",
+    features: [
+      "Indicação definida em avaliação clínica",
+      "Ajuste individualizado da peça",
+    ],
+  },
+  {
+    id: "proteses",
+    title: "Próteses Dentárias",
+    subtitle: "Reposição de dentes ausentes",
+    description:
+      "Próteses planejadas conforme o caso de cada paciente para repor dentes ausentes e restabelecer a mastigação.",
+    features: [
+      "Planejamento individualizado",
+      "Ajustes e acompanhamento após a instalação",
+    ],
+  },
+  {
+    id: "extracoes",
+    title: "Extrações Dentárias",
+    subtitle: "Procedimento cirúrgico",
+    description:
+      "Remoção de dentes quando há indicação clínica, com orientação completa sobre o pós-operatório.",
+    features: [
+      "Indicação avaliada caso a caso",
+      "Orientações de cuidado após o procedimento",
+    ],
+  },
+  {
+    id: "reabilitacao-oral",
+    title: "Reabilitação Oral",
+    subtitle: "Tratamento integrado",
+    description:
+      "Planejamento que reúne diferentes procedimentos para restabelecer função, saúde e aparência do sorriso como um conjunto.",
+    features: [
+      "Avaliação completa antes de iniciar",
+      "Etapas definidas junto com o paciente",
     ],
   },
 ];

@@ -26,7 +26,7 @@ export function ProcedureSection() {
 
             <ScrollReveal delay={100}>
               <p className="text-base text-[#686868] font-normal leading-relaxed">
-                A alta estética dental nasce da união entre o rigor técnico-científico e o olhar artístico apurado. Cada preparo, escultura e ajuste é conduzido sob lupas de magnificação e planejamento digital prévio.
+                Cada preparo, escultura e ajuste é conduzido com atenção aos detalhes e auxílio de lupa de magnificação. Quando indicado, o sorriso é planejado previamente com mock-up.
               </p>
             </ScrollReveal>
 
@@ -38,10 +38,10 @@ export function ProcedureSection() {
                   </div>
                   <div>
                     <h4 className="font-serif-title text-lg text-[#171717] font-medium">
-                      Preparo Conservador de Mínima Intervenção
+                      Abordagem conservadora quando indicada
                     </h4>
                     <p className="text-xs text-[#686868] mt-1 leading-relaxed">
-                      Preservação máxima da estrutura dental natural e do esmalte para longevidade biológica.
+                      Cada caso é avaliado individualmente, buscando preservar ao máximo a estrutura dental sempre que clinicamente indicado.
                     </p>
                   </div>
                 </div>
@@ -52,10 +52,10 @@ export function ProcedureSection() {
                   </div>
                   <div>
                     <h4 className="font-serif-title text-lg text-[#171717] font-medium">
-                      Precisão Microscópica & Lupa de Magnificação
+                      Lupa de Magnificação
                     </h4>
                     <p className="text-xs text-[#686868] mt-1 leading-relaxed">
-                      Visualização ampliada para garantias de adaptação marginal perfeita e ausência de degraus.
+                      Visualização ampliada do campo de trabalho, auxiliando na precisão dos procedimentos.
                     </p>
                   </div>
                 </div>
@@ -66,10 +66,10 @@ export function ProcedureSection() {
                   </div>
                   <div>
                     <h4 className="font-serif-title text-lg text-[#171717] font-medium">
-                      Simulação Prévia (Mock-up do Sorriso)
+                      Planejamento do sorriso com mock-up
                     </h4>
                     <p className="text-xs text-[#686868] mt-1 leading-relaxed">
-                      Você aprova o novo formato do seu sorriso em boca antes da confecção definitiva das cerâmicas.
+                      Quando indicado, você visualiza o formato do sorriso em boca antes da confecção definitiva das peças.
                     </p>
                   </div>
                 </div>

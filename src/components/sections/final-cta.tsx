@@ -10,7 +10,7 @@ import { MessageCircle, Sparkles } from "lucide-react";
 
 export function FinalCTASection() {
   const whatsappUrl = getWhatsAppLink(
-    "Olá Dr. Alan, gostaria de dar o primeiro passo e agendar uma avaliação."
+    "Olá, gostaria de agendar uma avaliação com o Dr. Alan."
   );
 
   return (

@@ -23,7 +23,7 @@ export function AboutDoctorSection() {
               <SectionHeader
                 eyebrow="Corpo Clínico & Responsável Técnico"
                 title="Dr. Alan G. Buchmann"
-                subtitle="Odontologia feita com técnica, atenção aos detalhes e cuidado genuíno por cada paciente."
+                subtitle="Atendimento odontológico conduzido com cuidado, planejamento individualizado e atenção aos detalhes. Dr. Alan Buchmann atua como clínico geral e mantém atualização constante por meio de cursos de aperfeiçoamento."
                 align="left"
               />
             </ScrollReveal>
@@ -33,10 +33,10 @@ export function AboutDoctorSection() {
               <div className="flex flex-wrap items-center gap-3 pt-1">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#f8f5ee] border border-[#e9e7e2] text-xs font-semibold text-[#a38344]">
                   <Award className="w-3.5 h-3.5" />
-                  CRO-RS [Nº de Inscrição em Validação]
+                  CRO/RS 16744
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#fafaf8] border border-[#e9e7e2] text-xs font-medium text-[#686868]">
-                  Odontologia Estética & Reabilitação
+                  Clínico Geral
                 </span>
               </div>
             </ScrollReveal>
@@ -53,7 +53,7 @@ export function AboutDoctorSection() {
                       Formação & Aperfeiçoamento Contínuo
                     </h4>
                     <p className="text-sm text-[#686868] mt-1 leading-relaxed">
-                      Dedicação constante à atualização técnica em cursos de pós-graduação e imersões estéticas de alto padrão para entregar o que há de mais moderno aos pacientes.
+                      Atualização constante por meio de cursos de aperfeiçoamento, entre eles o Curso de Aperfeiçoamento em Lentes de Contato Dental em Cerâmica.
                     </p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export function AboutDoctorSection() {
                       Planejamento Odontológico Individualizado
                     </h4>
                     <p className="text-sm text-[#686868] mt-1 leading-relaxed">
-                      Nenhum tratamento é padronizado. Cada plano de diagnóstico é desenhado respeitando a biologia, a estética facial e as metas pessoais do paciente.
+                      Cada caso é avaliado individualmente, buscando preservar ao máximo a estrutura dental sempre que clinicamente indicado.
                     </p>
                   </div>
                 </div>
@@ -78,8 +78,8 @@ export function AboutDoctorSection() {
             <ScrollReveal delay={300}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                 {[
-                  "Atendimento com hora marcada e sem pressa",
-                  "Materiais e cerâmicas de padrão internacional",
+                  "Atendimento preferencialmente com horário agendado",
+                  "Procedimentos conduzidos com auxílio de lupa",
                   "Acompanhamento pós-tratamento rigoroso",
                   "Ambiente preparado para seu total conforto",
                 ].map((item, idx) => (
@@ -112,7 +112,7 @@ export function AboutDoctorSection() {
                     Dr. Alan G. Buchmann
                   </h3>
                   <p className="text-xs text-[#a38344] font-medium tracking-wide uppercase mt-0.5">
-                    Cirurgião-Dentista
+                    Clínico Geral · CRO/RS 16744
                   </p>
                 </div>
               </div>

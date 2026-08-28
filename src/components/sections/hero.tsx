@@ -9,7 +9,7 @@ import { getWhatsAppLink } from "@/lib/whatsapp";
 import { MessageCircle, ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
 
 export function HeroSection() {
-  const whatsappUrl = getWhatsAppLink("Olá Dr. Alan, gostaria de agendar uma avaliação.");
+  const whatsappUrl = getWhatsAppLink("Olá, gostaria de agendar uma avaliação com o Dr. Alan.");
 
   return (
     <section
@@ -107,13 +107,13 @@ export function HeroSection() {
                       Dr. Alan G. Buchmann
                     </p>
                     <p className="text-xs text-[#a38344] font-medium tracking-wide uppercase">
-                      Odontologia Estética
+                      Clínico Geral · CRO/RS 16744
                     </p>
                   </div>
                 </div>
 
                 {/* Elementos de destaque decorativos */}
-                <div className="absolute -bottom-6 -left-6 apple-glass-badge p-4 rounded-2xl hidden sm:flex items-center gap-3 z-30">
+                <div className="absolute -bottom-16 -left-6 apple-glass-badge p-4 rounded-2xl hidden sm:flex items-center gap-3 z-30">
                   <div className="w-10 h-10 rounded-full bg-[#f8f5ee] flex items-center justify-center text-[#a38344]">
                     <ShieldCheck className="w-5 h-5" />
                   </div>

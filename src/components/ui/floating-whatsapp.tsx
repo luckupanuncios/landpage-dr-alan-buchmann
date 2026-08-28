@@ -26,7 +26,7 @@ export function FloatingWhatsApp() {
     trackGTMEvent("click_whatsapp_floating");
   };
 
-  const whatsappUrl = getWhatsAppLink("Olá Dr. Alan, gostaria de agendar uma avaliação.");
+  const whatsappUrl = getWhatsAppLink("Olá, gostaria de agendar uma avaliação com o Dr. Alan.");
 
   if (!isVisible) return null;
 

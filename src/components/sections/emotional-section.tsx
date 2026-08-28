@@ -10,7 +10,7 @@ import { Heart, MessageCircle, Sparkles } from "lucide-react";
 
 export function EmotionalSection() {
   const whatsappUrl = getWhatsAppLink(
-    "Olá Dr. Alan, gostaria de agendar uma avaliação para cuidar do meu sorriso."
+    "Olá, gostaria de agendar uma avaliação com o Dr. Alan para cuidar do meu sorriso."
   );
 
   return (

@@ -10,7 +10,7 @@ import { MessageCircle, CalendarCheck, ClipboardList, Sparkles } from "lucide-re
 
 export function ProcessSection() {
   const whatsappUrl = getWhatsAppLink(
-    "Olá Dr. Alan, gostaria de dar o 1º passo e agendar uma avaliação."
+    "Olá, gostaria de agendar uma avaliação com o Dr. Alan."
   );
 
   const steps = [
@@ -39,7 +39,7 @@ export function ProcessSection() {
       number: "04",
       title: "Planejamento sob medida",
       description:
-        "Apresentamos a proposta de tratamento ideal, os prazos e o mock-up digital para você iniciar com total clareza.",
+        "Apresentamos a proposta de tratamento, os prazos e, quando indicado, o mock-up do sorriso para você iniciar com total clareza.",
       icon: <Sparkles className="w-5 h-5 text-[#a38344]" />,
     },
   ];

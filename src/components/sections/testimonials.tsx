@@ -17,14 +17,14 @@ export function TestimonialsSection() {
       rating: 5,
     },
     {
-      treatment: "Alinhadores Invisíveis & Clareamento",
+      treatment: "Clareamento Dental",
       text: "Eu tinha muito receio de tratamentos dentários por experiências passadas. O Dr. Alan foi extremamente paciente, explicou cada etapa do processo e tornou tudo muito tranquilo.",
       authorInitial: "M. S.",
       location: "Taquara - RS",
       rating: 5,
     },
     {
-      treatment: "Reabilitação Oral & Estética",
+      treatment: "Reabilitação Oral",
       text: "O consultório é excelente e a atenção aos detalhes impressiona. Fazer a reabilitação do meu sorriso com o Dr. Alan foi a melhor escolha que fiz pela minha saúde e confiança.",
       authorInitial: "C. H.",
       location: "Novo Hamburgo - RS",

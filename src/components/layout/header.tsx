@@ -34,7 +34,7 @@ export function Header() {
     { name: "Contato", href: "#localizacao" },
   ];
 
-  const whatsappUrl = getWhatsAppLink("Olá Dr. Alan, gostaria de agendar uma avaliação.");
+  const whatsappUrl = getWhatsAppLink("Olá, gostaria de agendar uma avaliação com o Dr. Alan.");
 
   return (
     <header
@@ -64,7 +64,7 @@ export function Header() {
                 DR. ALAN BUCHMANN
               </span>
               <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.22em] text-[#686868] font-medium">
-                Odontologia Estética
+                Clínico Geral · CRO/RS 16744
               </span>
             </div>
           </Link>

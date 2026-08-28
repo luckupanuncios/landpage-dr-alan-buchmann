@@ -11,7 +11,7 @@ import { MessageCircle } from "lucide-react";
 
 export function ResultsSection() {
   const whatsappUrl = getWhatsAppLink(
-    "Olá Dr. Alan, gostaria de agendar uma avaliação após ver os resultados."
+    "Olá, gostaria de agendar uma avaliação com o Dr. Alan."
   );
 
   return (
@@ -21,7 +21,7 @@ export function ResultsSection() {
           <SectionHeader
             eyebrow="Casos Clínicos & Transformações"
             title="Sorrisos transformados com arte e precisão."
-            subtitle="Cada resultado reflete a harmonia entre a biologia dental natural e a estética personalizada de alto padrão."
+            subtitle="Cada caso é planejado de forma individual, respeitando as condições clínicas e os objetivos de cada paciente."
             align="center"
           />
         </ScrollReveal>
@@ -69,11 +69,11 @@ export function ResultsSection() {
                   <span className="text-xs uppercase tracking-[0.2em] font-semibold text-[#a38344] bg-[#f8f5ee] px-3 py-1 rounded-full border border-[#e9e7e2]">
                     Caso 02
                   </span>
-                  <span className="text-xs text-[#686868]">Alinhadores & Clareamento</span>
+                  <span className="text-xs text-[#686868]">Estética do Sorriso</span>
                 </div>
 
                 <h3 className="font-serif-title text-2xl font-light text-[#171717] group-hover:text-[#a38344] transition-colors">
-                  Alinhamento Invisível & Lentes Ultrafinas
+                  Reabilitação Estética do Sorriso
                 </h3>
 
                 {/* Container de Imagem Vertical (object-contain mantido 100% íntegro) */}
@@ -88,7 +88,7 @@ export function ResultsSection() {
                 </div>
 
                 <p className="text-sm text-[#686868] leading-relaxed">
-                  Correção de alinhamento dental e fechamento de diastemas com mínima intervenção.
+                  Caso conduzido buscando preservar ao máximo a estrutura dental, conforme a indicação clínica.
                 </p>
               </div>
             </div>
