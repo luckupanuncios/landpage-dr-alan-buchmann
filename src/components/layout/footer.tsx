@@ -136,7 +136,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4 pt-1">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/dr.alanbuchmann/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram do Dr. Alan"
@@ -151,7 +151,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/dentistaalanbuchmann/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook do Dr. Alan"
