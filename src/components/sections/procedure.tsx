@@ -85,8 +85,8 @@ export function ProcedureSection() {
               <ScrollReveal delay={150} direction="up">
                 <div className="relative aspect-[16/10] rounded-[28px] overflow-hidden border border-[#e9e7e2] shadow-2xl group w-full lg:w-[88%] lg:ml-auto">
                   <Image
-                    src="/images/dr-alan/procedimento-odontologico.jpg"
-                    alt="Registro clínico de procedimento odontológico realizado pelo Dr. Alan"
+                    src="/images/dr-alan/experiencia-03.jpg"
+                    alt="Registro clínico de procedimento restaurador conduzido sob lupa pelo Dr. Alan Buchmann"
                     fill
                     sizes="(max-width: 768px) 100vw, 45vw"
                     className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
