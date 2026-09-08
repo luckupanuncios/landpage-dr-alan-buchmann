@@ -71,18 +71,18 @@ export default function PoliticaDePrivacidadePage() {
           <Secao titulo="1. Quem é o controlador dos seus dados">
             <p>
               O controlador dos dados pessoais tratados neste site é{" "}
-              <Destaque>[RAZÃO SOCIAL / CPF ou CNPJ]</Destaque>, responsável pelo
-              consultório odontológico do Dr. Alan Geison Buchmann Machado, com
-              endereço na R. Lotário Raimundo, 59, Sala 02, Centro, Parobé/RS,
-              CEP 95630-000.
+              <Destaque>Alan Geison Buchmann Machado, cirurgião-dentista inscrito no CRO/RS sob o nº 16744</Destaque>, responsável pelo consultório
+              odontológico com endereço na R. Lotário Raimundo, 59, Sala 02,
+              Centro, Parobé/RS, CEP 95630-000.
             </p>
             <p>
               Canal para assuntos relacionados a dados pessoais:{" "}
-              <Destaque>[E-MAIL DE CONTATO]</Destaque>.
+              <Destaque>alangeisonbuchmann@gmail.com</Destaque>.
             </p>
             <p>
-              Encarregado pelo tratamento de dados pessoais (DPO), quando
-              aplicável: <Destaque>[NOME E CONTATO DO ENCARREGADO, SE HOUVER]</Destaque>.
+              O contato acima também é o canal indicado para o exercício dos
+              direitos previstos na LGPD e para o encarregado pelo tratamento de
+              dados pessoais.
             </p>
           </Secao>
 
@@ -287,7 +287,7 @@ export default function PoliticaDePrivacidadePage() {
             </ul>
             <p className="pt-1">
               Para exercer qualquer desses direitos, escreva para{" "}
-              <Destaque>[E-MAIL DE CONTATO]</Destaque> informando o seu pedido. A
+              <Destaque>alangeisonbuchmann@gmail.com</Destaque> informando o seu pedido. A
               solicitação será respondida nos prazos previstos na legislação.
               Poderá ser necessário confirmar a sua identidade antes do
               atendimento do pedido.

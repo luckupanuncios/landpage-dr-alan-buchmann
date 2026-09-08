@@ -94,8 +94,8 @@ export default function TermosDeUsoPage() {
             </p>
             <p>
               Titularidade do site:{" "}
-              <Destaque>[RAZÃO SOCIAL / CPF ou CNPJ]</Destaque>. Contato:{" "}
-              <Destaque>[E-MAIL DE CONTATO]</Destaque>.
+              <Destaque>Alan Geison Buchmann Machado, cirurgião-dentista inscrito no CRO/RS sob o nº 16744</Destaque>. Contato:{" "}
+              <Destaque>alangeisonbuchmann@gmail.com</Destaque>.
             </p>
           </Secao>
 
