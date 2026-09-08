@@ -77,55 +77,28 @@ export function ProcedureSection() {
             </ScrollReveal>
           </div>
 
-          {/* Lado Direito: Composição Editorial Escalonada — sem sobreposição agressiva */}
+          {/* Lado Direito: Imagem editorial única em formato 4:5 */}
           <div className="lg:col-span-6">
-            <div className="flex flex-col gap-6 lg:gap-8">
-
-              {/* Imagem 1: Procedimento — deslocada para a direita no desktop */}
-              <ScrollReveal delay={150} direction="up">
-                <div className="relative aspect-[16/10] rounded-[28px] overflow-hidden border border-[#e9e7e2] shadow-2xl group w-full lg:w-[88%] lg:ml-auto">
-                  <Image
-                    src="/images/dr-alan/experiencia-03.jpg"
-                    alt="Registro clínico de procedimento restaurador conduzido sob lupa pelo Dr. Alan Buchmann"
-                    fill
-                    sizes="(max-width: 768px) 100vw, 45vw"
-                    className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#171717]/65 via-transparent to-transparent z-10 pointer-events-none" />
-                  <div className="absolute bottom-4 left-4 right-4 z-20 apple-glass-badge p-3.5 rounded-xl">
-                    <p className="font-serif-title text-sm font-medium text-[#171717]">
-                      Precisão Cirúrgica &amp; Restauradora
-                    </p>
-                    <p className="text-[11px] text-[#686868]">
-                      Protocolos rigorosos conduzidos sob iluminação de alta resolução.
-                    </p>
-                  </div>
+            <ScrollReveal delay={150} direction="up">
+              <div className="relative aspect-[4/5] w-full max-w-md lg:max-w-lg mx-auto rounded-[28px] overflow-hidden border border-[#e9e7e2] shadow-2xl group">
+                <Image
+                  src="/images/dr-alan/experiencia-03.jpg"
+                  alt="Registro clínico de procedimento restaurador conduzido sob lupa pelo Dr. Alan Buchmann"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 45vw"
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#171717]/65 via-transparent to-transparent z-10 pointer-events-none" />
+                <div className="absolute bottom-4 left-4 right-4 z-20 apple-glass-badge p-3.5 rounded-xl">
+                  <p className="font-serif-title text-sm font-medium text-[#171717]">
+                    Precisão Cirúrgica &amp; Restauradora
+                  </p>
+                  <p className="text-[11px] text-[#686868]">
+                    Protocolos rigorosos conduzidos sob iluminação de alta resolução.
+                  </p>
                 </div>
-              </ScrollReveal>
-
-              {/* Imagem 2: Prótese — deslocada para a esquerda no desktop */}
-              <ScrollReveal delay={300} direction="up">
-                <div className="relative aspect-[16/10] rounded-[28px] overflow-hidden border border-[#e9e7e2] shadow-2xl group w-full lg:w-[88%] lg:mr-auto">
-                  <Image
-                    src="/images/dr-alan/protese-dentaria.jpg"
-                    alt="Peça de prótese cerâmica de alta precisão estética"
-                    fill
-                    sizes="(max-width: 768px) 100vw, 40vw"
-                    className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#171717]/65 via-transparent to-transparent z-10 pointer-events-none" />
-                  <div className="absolute bottom-4 left-4 right-4 z-20 apple-glass-badge p-3.5 rounded-xl">
-                    <p className="font-serif-title text-sm font-medium text-[#171717]">
-                      Cerâmicas &amp; Laminados Personalizados
-                    </p>
-                    <p className="text-[11px] text-[#686868]">
-                      Textura, translucidez e mimetismo com os dentes naturais.
-                    </p>
-                  </div>
-                </div>
-              </ScrollReveal>
-
-            </div>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </Container>
