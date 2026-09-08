@@ -175,10 +175,16 @@ export function Footer() {
             © {new Date().getFullYear()} Dr. Alan Geison Buchmann Machado. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="hover:text-[#a3a3a3] transition-colors">
+            <Link
+              href="/politica-de-privacidade"
+              className="hover:text-[#a3a3a3] transition-colors"
+            >
               Política de Privacidade
             </Link>
-            <Link href="#" className="hover:text-[#a3a3a3] transition-colors">
+            <Link
+              href="/termos-de-uso"
+              className="hover:text-[#a3a3a3] transition-colors"
+            >
               Termos de Uso
             </Link>
           </div>
