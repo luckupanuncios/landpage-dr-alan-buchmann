@@ -43,14 +43,14 @@ export function ResultsSection() {
                   Facetas em Cerâmica & Harmonização do Sorriso
                 </h3>
 
-                {/* Container de Imagem Vertical (object-contain mantido 100% íntegro) */}
-                <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-2xl overflow-hidden bg-[#fafaf8] border border-[#e9e7e2] my-4 p-2 shadow-inner">
+                {/* Container de Imagem Vertical 4:5 - raio aplicado na imagem para acompanhar o card */}
+                <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#fafaf8] border border-[#e9e7e2] my-4 shadow-inner">
                   <Image
                     src="/images/dr-alan/caso-01-antes-depois.jpg"
                     alt="Resultado Antes e Depois - Caso 01 - Facetas em cerâmica no arco superior - Dr. Alan Buchmann"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-contain p-1.5 transition-transform duration-500 group-hover:scale-[1.01]"
+                    className="object-cover rounded-2xl transition-transform duration-500 group-hover:scale-[1.01]"
                   />
                 </div>
 
@@ -76,14 +76,14 @@ export function ResultsSection() {
                   Reabilitação Estética do Sorriso
                 </h3>
 
-                {/* Container de Imagem Vertical (object-contain mantido 100% íntegro) */}
-                <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-2xl overflow-hidden bg-[#fafaf8] border border-[#e9e7e2] my-4 p-2 shadow-inner">
+                {/* Container de Imagem Vertical 4:5 - raio aplicado na imagem para acompanhar o card */}
+                <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#fafaf8] border border-[#e9e7e2] my-4 shadow-inner">
                   <Image
                     src="/images/dr-alan/caso-02-antes-depois.jpg"
                     alt="Resultado Antes e Depois - Caso 02 - Reabilitação estética do arco superior - Dr. Alan Buchmann"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-contain p-1.5 transition-transform duration-500 group-hover:scale-[1.01]"
+                    className="object-cover rounded-2xl transition-transform duration-500 group-hover:scale-[1.01]"
                   />
                 </div>
 
