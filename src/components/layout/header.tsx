@@ -90,6 +90,7 @@ export function Header() {
               variant="gold"
               size="sm"
               gtmEventName="click_whatsapp_header"
+              gtmParams={{ secao: "header", dispositivo: "desktop" }}
               icon={<MessageCircle className="w-4 h-4" />}
             >
               Agendar avaliação
@@ -134,6 +135,7 @@ export function Header() {
             size="md"
             className="w-full"
             gtmEventName="click_whatsapp_header"
+            gtmParams={{ secao: "header", dispositivo: "mobile" }}
             onClick={() => setMobileMenuOpen(false)}
             icon={<MessageCircle className="w-5 h-5" />}
           >

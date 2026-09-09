@@ -23,7 +23,7 @@ export function FloatingWhatsApp() {
   }, []);
 
   const handleClick = () => {
-    trackGTMEvent("click_whatsapp_floating");
+    trackGTMEvent("click_whatsapp_floating", { secao: "botao_flutuante" });
   };
 
   const whatsappUrl = getWhatsAppLink("Olá, gostaria de agendar uma avaliação com o Dr. Alan.");

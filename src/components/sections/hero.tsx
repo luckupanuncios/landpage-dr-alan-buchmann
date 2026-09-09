@@ -56,6 +56,7 @@ export function HeroSection() {
                   variant="gold"
                   size="lg"
                   gtmEventName="click_whatsapp_hero"
+                  gtmParams={{ secao: "hero" }}
                   icon={<MessageCircle className="w-5 h-5" />}
                 >
                   Agendar minha avaliação

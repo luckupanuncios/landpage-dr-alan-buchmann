@@ -6,6 +6,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { TREATMENTS_DATA } from "@/data/treatments";
 import { Button } from "@/components/ui/button";
+import { trackGTMEvent } from "@/lib/analytics";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 import { CheckCircle2, MessageCircle, ArrowUpRight } from "lucide-react";
 
@@ -76,6 +77,12 @@ export function TreatmentsSection() {
                       href={treatmentWhatsappUrl}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={() =>
+                        trackGTMEvent("click_whatsapp_tratamento_card", {
+                          secao: "tratamentos",
+                          tratamento: treatment.title,
+                        })
+                      }
                       className="inline-flex items-center gap-2 text-xs font-semibold text-[#171717] group-hover:text-[#a38344] transition-colors"
                     >
                       <span>Saber mais sobre este tratamento</span>
@@ -102,7 +109,8 @@ export function TreatmentsSection() {
               external
               variant="gold"
               size="md"
-              gtmEventName="click_whatsapp_hero"
+              gtmEventName="click_whatsapp_tratamentos"
+              gtmParams={{ secao: "tratamentos" }}
               icon={<MessageCircle className="w-5 h-5" />}
             >
               Agendar minha avaliação personalizada

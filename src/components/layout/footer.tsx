@@ -13,7 +13,11 @@ export function Footer() {
   const mapsUrl = "https://maps.app.goo.gl/zvSyshBKMffJGThp6";
 
   const handleMapsClick = () => {
-    trackGTMEvent("click_maps");
+    trackGTMEvent("click_maps", { origem: "rodape" });
+  };
+
+  const handleWhatsAppClick = () => {
+    trackGTMEvent("click_whatsapp_footer", { secao: "rodape" });
   };
 
   return (
@@ -106,6 +110,7 @@ export function Footer() {
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={handleWhatsAppClick}
                   className="hover:text-white transition-colors"
                 >
                   {WHATSAPP_DISPLAY}

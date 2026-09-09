@@ -75,6 +75,7 @@ export function FinalCTASection() {
                   variant="gold"
                   size="lg"
                   gtmEventName="click_whatsapp_final"
+                  gtmParams={{ secao: "cta_final" }}
                   icon={<MessageCircle className="w-5 h-5" />}
                 >
                   Falar pelo WhatsApp

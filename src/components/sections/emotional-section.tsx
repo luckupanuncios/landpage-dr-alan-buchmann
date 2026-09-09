@@ -100,7 +100,8 @@ export function EmotionalSection() {
                   external
                   variant="gold"
                   size="lg"
-                  gtmEventName="click_whatsapp_hero"
+                  gtmEventName="click_whatsapp_emocional"
+                  gtmParams={{ secao: "emocional" }}
                   icon={<MessageCircle className="w-5 h-5" />}
                 >
                   Quero cuidar do meu sorriso

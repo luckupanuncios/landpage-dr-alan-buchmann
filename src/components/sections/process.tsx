@@ -100,7 +100,8 @@ export function ProcessSection() {
               external
               variant="gold"
               size="lg"
-              gtmEventName="click_whatsapp_hero"
+              gtmEventName="click_whatsapp_processo"
+              gtmParams={{ secao: "processo" }}
               icon={<MessageCircle className="w-5 h-5" />}
             >
               Iniciar meu agendamento agora

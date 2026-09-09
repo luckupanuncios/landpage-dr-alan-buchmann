@@ -103,7 +103,8 @@ export function ResultsSection() {
               external
               variant="gold"
               size="lg"
-              gtmEventName="click_whatsapp_hero"
+              gtmEventName="click_whatsapp_resultados"
+              gtmParams={{ secao: "resultados" }}
               icon={<MessageCircle className="w-5 h-5" />}
             >
               Quero avaliar o meu caso

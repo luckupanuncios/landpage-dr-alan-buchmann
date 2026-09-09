@@ -12,6 +12,7 @@ interface ButtonProps {
   size?: "sm" | "md" | "lg";
   className?: string;
   gtmEventName?: string;
+  gtmParams?: Record<string, unknown>;
   external?: boolean;
   type?: "button" | "submit" | "reset";
   icon?: React.ReactNode;
@@ -25,6 +26,7 @@ export function Button({
   size = "md",
   className = "",
   gtmEventName,
+  gtmParams,
   external = false,
   type = "button",
   icon,
@@ -53,7 +55,7 @@ export function Button({
 
   const handleClick = () => {
     if (gtmEventName) {
-      trackGTMEvent(gtmEventName);
+      trackGTMEvent(gtmEventName, gtmParams);
     }
     if (onClick) {
       onClick();

@@ -98,6 +98,7 @@ export function LocationSection() {
                     variant="primary"
                     size="md"
                     gtmEventName="click_maps"
+                    gtmParams={{ origem: "localizacao" }}
                     icon={<Navigation className="w-4 h-4" />}
                   >
                     Como chegar (Google Maps)
@@ -107,7 +108,8 @@ export function LocationSection() {
                     external
                     variant="gold"
                     size="md"
-                    gtmEventName="click_whatsapp_hero"
+                    gtmEventName="click_whatsapp_localizacao"
+                    gtmParams={{ secao: "localizacao" }}
                     icon={<MessageCircle className="w-4 h-4" />}
                   >
                     Falar no WhatsApp
