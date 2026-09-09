@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { FloatingWhatsApp } from "@/components/ui/floating-whatsapp";
+import { SiteChrome } from "@/components/layout/site-chrome";
 import { GTM_ID } from "@/lib/analytics";
 
 const cormorant = Cormorant_Garamond({
@@ -123,10 +124,14 @@ export default function RootLayout({
           </noscript>
         )}
 
-        <Header />
+        <SiteChrome>
+          <Header />
+        </SiteChrome>
         <main>{children}</main>
-        <Footer />
-        <FloatingWhatsApp />
+        <SiteChrome>
+          <Footer />
+          <FloatingWhatsApp />
+        </SiteChrome>
       </body>
     </html>
   );
