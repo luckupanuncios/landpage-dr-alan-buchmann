@@ -48,14 +48,21 @@ export const metadata: Metadata = {
     siteName: "Dr. Alan Buchmann — Odontologia em Parobé",
     images: [
       {
-        url: "/images/dr-alan/capa-facebook-dr-alan.png",
+        url: "/images/dr-alan/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dr. Alan Buchmann — Dentista Clínico Geral em Parobé",
+        alt: "Dr. Alan Buchmann — Dentista Clínico Geral em Parobé - RS",
       },
     ],
     locale: "pt_BR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr. Alan Buchmann | Dentista Clínico Geral em Parobé - RS",
+    description:
+      "Conheça o trabalho do Dr. Alan Buchmann em Parobé e agende sua avaliação odontológica.",
+    images: ["/images/dr-alan/og-image.jpg"],
   },
   robots: {
     index: true,
